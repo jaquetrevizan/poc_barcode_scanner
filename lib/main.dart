@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'input_barcode_screen.dart';
+import 'input_barcode_screen_reader.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,12 +14,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "POC do leitor de código de barras",
-      theme: ThemeData(
-        primarySwatch: Colors.indigo,
-        visualDensity: VisualDensity.adaptivePlatformDensity
-      ),
-      home: InputBarcodeScreen(),
+      // home: InputBarcodeScreen(),
+      home: InputBarcodeScreenReader(),
     );
+
   }
 }
 

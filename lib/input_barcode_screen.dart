@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';                                                                                                                                                                                          import 'package:flutter/material.dart';
 
 class InputBarcodeScreen extends StatelessWidget {
 
@@ -27,7 +27,6 @@ class InputBarcodeScreen extends StatelessWidget {
             textInputAction: TextInputAction.done,
             decoration: InputDecoration(
               hintText: 'Aponte o leitor e escaneie',
-              filled: true,
               border: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(10),
               ),
