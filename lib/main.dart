@@ -14,8 +14,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "POC do leitor de código de barras",
-      // home: InputBarcodeScreen(),
-      home: InputBarcodeScreenReader(),
+      home: InputBarcodeScreen(),
+      // home: InputBarcodeScreenReader(),
     );
 
   }
